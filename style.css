@@ -1,0 +1,59 @@
+
+.bdy{
+background-color: rgb(228, 197, 151);
+}
+.inp{
+    color: white;
+    background-color: darkgrey;
+}
+#member-card{
+    margin-top: 20px;
+    background-image: url('./card1.png');
+    width: 230px;
+    height: 150px;
+    display: none;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+.amount{
+    position: absolute;
+    top: 105px;
+    left: 93px;
+}
+
+.date{
+    position: absolute;
+    top: 107px;
+    left: 13px;
+    font-size: 15px;
+}
+
+.shirt{
+    color: rgb(243, 238, 238);
+    background-color: rgb(109, 107, 236);
+}
+
+.shirt:hover{
+    background-color: rgba(5, 7, 0, 0.959);
+}
+
+#form{
+    border: 2px solid #556B2F;
+}
+
+@media (max-width: 266px ){
+    #member-card{
+    margin-top: 20px;
+    background-image: url('./card1.png');
+    width: 200px;
+    height: 130px;
+    display: none;
+    position: relative;
+}
+
+}
